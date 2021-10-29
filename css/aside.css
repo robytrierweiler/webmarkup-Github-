@@ -1,0 +1,63 @@
+/*nav*/
+#firstdestination,#seconddestination,#thirddestination,
+#fourthdestination,#fifthdestination{
+    display: none;
+}
+aside {
+    float: right;
+    border: 1px solid #ccc;
+    background-color: lightblue;
+    width: 29%;
+    height: auto;
+  } 
+
+
+  #asideitems {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightblue;
+    display: none;
+  }
+
+  #asideitems p{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 16px 16px;
+  text-align: center;
+  
+  }  
+  #asideclass label {
+    display: inline-block;
+    color: white;
+    background: lightblue;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  #asideclass input:checked ~ #asideitems {
+    display: block;
+  }
+
+
+  @media only screen and (min-width:481px) and (max-width:1179px){
+    aside {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin-bottom: 10%;
+    }
+
+}
+@media only screen and (max-width:480px){
+ aside{
+   width: 100%;
+ }
+.flex{
+  width: 99%;
+}
+header{
+  width: 50%;
+}
+}

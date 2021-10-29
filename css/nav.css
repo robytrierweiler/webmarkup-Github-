@@ -1,0 +1,78 @@
+/*nav*/
+#desktop {
+    width: 100%;
+    background-color: lightblue;
+    top: 0;
+    margin-bottom: 1%;
+  }
+  #desktop label,
+  #hamburger {
+    display: none;
+  }
+  #hamitems {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #hamitems li {
+    width: 25%;
+    color: white;
+    text-align: center;
+  }
+  #hamitems li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 16px 16px;
+  text-align: center;
+  
+  }
+  #hamitems li a.active {
+    background-color: gray;
+    color: white;
+  }
+  
+  #hamitems li a:hover:not(.active) {
+    background-color: blue;
+    color: white;
+  }
+  @media screen and (max-width: 480px) {
+    #desktop label {
+      display: inline-block;
+      color: white;
+      background: lightblue;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    #hamitems li {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+    #hamitems li a {
+      text-decoration: none;
+    }
+    #hamitems {
+      display: none;
+    }
+    #desktop input:checked ~ #hamitems {
+      display: block;
+    }
+    #desktop{
+      width: 50%;
+      float: right;
+      margin-top: 10%;
+      margin-bottom: 19%;
+    }
+  }
+  /*nav end*/
+  

@@ -1,15 +1,152 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Index</title>
+  <meta name='value' content='width=device-width&#44 initial-scale=1'>
+  <link rel="icon" type="image/x-icon" href="/img/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/aside.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/video.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/flex.css" />
+
 </head>
-<body>
-    <p>hello world!!!</p>
-    <button>push me</button>
+
+<body style="background-image: url(img/beach.jpg);">
+  <header>
+    <img src="img/logo.PNG" alt="logo" width="125" height="100" class="logo" />
+    <h1>Travelagent.lu</h1>
+    <h2>Discover the world</h2>
+  </header>
+  <nav id="desktop">
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger">
+
+    <ul id="hamitems">
+      <li><a class="active" href="index.html"><strong>Index</strong></a></li>
+      <li><a href="bestdestination.html"><strong>Destination</strong></a></li>
+      <li><a href="tickets.html"><strong>Tickets</strong></a></li>
+      <li><a href="contact.html"><strong>Contact</strong></a></li>
+    </ul>
+  </nav>
+  <section class="contentclass">
+    <video autoplay loop>
+      <source src="videos/videodesktop.mp4" media="screen and (min-width:1180px)">
+      <source src="videos/videodesktop.ogg" media="screen and (min-width:1180px)">
+      <source src="videos/videomobile.mp4" media="screen and (min-width:480px) and (max-width:1179px)">
+      <source src="videos/videomobile.ogg" media="screen and (min-width:480px) and (max-width:1179px)">
+    </video>
+
+    <section>
+      <aside>
+        <ol>
+          <li>
+            <nav id="asideclass">
+              <label for="firstdestination">&#9776; CANCUN</label>
+              <input type="checkbox" id="firstdestination">
+
+              <section id="asideitems">
+                <p>Cancun is considered to be the heart of the mexican caribbeans. The gorgeous beaches, greatweather and amazing clear and clean waters are also huge pulls for many tourists.
+                <a href="https://www.villapalmarcancun.com/blog/destination/why-visit-cancun">read more</a></p>
+              </section>
+            </nav>
+          </li>
+          <li>
+            <nav id="asideclass">
+              <label for="seconddestination">&#9776; Orlando</label>
+              <input type="checkbox" id="seconddestination">
+
+              <section id="asideitems">
+                <p>Orlando is one of the paces where you can go with your family.
+                <a href="https://www.visitorlando.com/media/press-releases/post/21-new-reasons-to-visit-orlando-this-summer/">read more</a></p>
+              </section>
+            </nav>
+          </li>
+          <li>
+            <nav id="asideclass">
+              <label for="thirddestination">&#9776; COSTA RICA</label>
+              <input type="checkbox" id="thirddestination">
+
+              <section id="asideitems">
+                <p>Costa Rica is know for its incredible national parks. <a href="https://www.travelandleisure.com/trip-ideas/reasons-to-visit-costa-rica#:~:text=Costa%20Rica%20is%20known%20for,sea%20turtles%2C%20and%20adorable%20sloths.">read more</a></p>
+              </section>
+            </nav>
+          </li>
+          <li>
+            <nav id="asideclass">
+              <label for="fourthdestination">&#9776; RIVEIRA NAYARIT, MEXICO</label>
+              <input type="checkbox" id="fourthdestination">
+              <section id="asideitems">
+                <p>The city is good for surfing and many surfers are there. <a href="https://flamingos.villadelpalmar.com/blog/destination/5-reasons-to-visit-riviera-nayarit#:~:text=Even%20if%20you%27re%20not,reasons%20to%20visit%20Riviera%20Nayarit.">read more</a></p>
+              </section>
+            </nav>
+          </li>
+          <li>
+            <nav id="asideclass">
+              <label for="fifthdestination">&#9776; THE MARITIME PROVINCES, CANADA</label>
+              <input type="checkbox" id="fifthdestination">
+              <section id="asideitems">
+                <p>The maritimes provinces of canada is flanked by the atlantic ocean. The provinces are known for the fishing industrie and beatiful walking paths near the ocean. <a href="https://www.goaheadtours.com/travel-blog/articles/reasons-to-visit-canadian-maritimes">read more</a></p>
+              </section>
+            </nav>
+          </li>
+        </ol>
+      </aside>
+
+      <main class="flex">
+        <article class="floatright">
+          <h3 class="center">Dubai</h3>
+          <h3 class="center">Arabic : دبي</h3>
+          <section class="articletext section">
+            <p>Dubai is a city of superlatives. Dubai has the world&#39s tallest skyscrapers, largest shopping malls.
+              Dubai has a very beautiful natural beach. The average temperature in Dubai is 28&#8451;. Dubai is know for being the home of many famous and rich people
+              who want to live the lifestyle of the superlative. Which means it is not unusual to see great cars and things you don't see every day. 
+            <a href="https://www.tui.nl/reizen/verenigde-arabische-emiraten/dubai/">more info</a></p>
+          </section>
+          <a href="https://www.tui.nl/reizen/verenigde-arabische-emiraten/dubai/">
+          <img src="img/dubai.jpg" alt="dubai" class="image" />
+        </a>
+        </article>
+        <article class="floatright">
+          <h3 class="center">SHANGHAI</h3>
+          <h3 class="center">Chinese : 上海</h3>
+          <section class="articletext section">
+            <p>Shanghai is famous for its beautiful skyline and its tourist attractions. Shanghai is a mix of modern and historical places. It is also chinas biggest city.
+              if you thing you don't want to go to china because of the poverty in some city parts shanhai is the perfect destination because it is chinas richest city. Shang hai is a shopping 
+              paradis from luxury shooping areas to what every you can think of. THe out side market of shanhaiis also worth a look.
+            <a href="https://www.tui.nl/reizen/malediven/">more info</a></p>
+          </section>
+          <a href="https://www.tui.nl/reizen/malediven/">
+          <img src="img/Shanghai.jpeg" alt="Shanghai" class="image" />
+          </a>
+        </article>
+        <article class="floatright margin">
+          <h3 class="center">Maldives</h3>
+          <h3 class="center">Dhivehi: ދިވެހިރާއްޖެ</h3>
+          <section class="articletext section">
+            <p>The Maldives have have some of the most beautiful and cleanest beaches of the world. which means it is the perfect place to do any kind of water sports like jet-skiing, 
+              water skiing, diving, swimming with sharks, and diving into coral reefs. Besides the beach and the water the maldives are famous for its vibrant culture. 
+              The maldives are the perfect place to have a fun but relaxing vacation and brake from your everyday life.
+            <a href="https://www.travelandleisure.com/travel-guide/shanghai">more info</a></p>
+          </section>
+          <a href="https://www.travelandleisure.com/travel-guide/shanghai">
+          <img src="img/Maldives.jpg" alt="Maldives" class="image" />
+          </a>
+        </article>
+      </main>
+    </section>
+  </section>
+  <footer>
+    <section>
+      <p class="name">Roby Trierweiler &#169;</p>
+      <p class="name">Video Credit to: drone snap&#169;</p>
+      <p class="name">All of the photos abouve are copy right free</p>
+      <p class="cookie">Cookie statement</p>
+    </section>
+  </footer>
 </body>
+
 </html>

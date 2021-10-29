@@ -1,0 +1,31 @@
+  /* Style the buttons inside the aside */
+  aside button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  aside button:hover {
+    background-color: #ddd;
+  }
+  aside button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the aside content */
+  .asidecontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }

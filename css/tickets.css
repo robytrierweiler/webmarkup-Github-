@@ -1,0 +1,105 @@
+table{
+    width: 68%;
+    float: left;
+}
+@media screen and (max-width:1180px) {
+    table{
+    width: 100%;
+    }
+}
+table,tr,th{
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+
+}
+
+
+/*aside*/
+/*nav*/
+#firstdestination,#seconddestination,#thirddestination,
+#fourthdestination,#fifthdestination{
+    display: none;
+}
+
+aside {
+    float: right;
+    border: 1px solid;
+    border-color: #ccc;
+    background-color:#add8e6;
+    width: 29%;
+    height: auto;
+  } 
+
+
+  #asideitems {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#add8e6;
+    display: none;
+  }
+
+  #asideitems p{
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding: 16px 16px;
+  text-align: center;
+  
+  }  
+  #asideclass label {
+    display: inline-block;
+    color: #ffffff;
+    background:#add8e6;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  #asideclass input:checked ~ #asideitems {
+    display: block;
+  }
+
+
+  @media only screen and (min-width:481px) and (max-width:1179px){
+    aside {
+      top: 0;
+      width: 100%;
+      margin-bottom: 10%;
+    }
+    .display{
+        display: none;
+    };
+    .displaytablet{
+        display: inline;
+    }
+
+}
+@media only screen and (max-width:480px){
+ aside{
+   width: 100%;
+ }
+.flex{
+  width: 99%;
+}
+header{
+  width: 50%;
+}
+.displaytablet{
+    display: none;
+}
+.display{
+    display: inline;
+}
+}
+@media only screen and (min-width:1180px){
+    .displaytablet{
+        display: none;
+    }
+    .display{
+        display: inline;
+    }
+    
+}
+
+/*aside end*/

@@ -1,0 +1,142 @@
+h1{
+  letter-spacing: 2px;
+}
+p{
+    line-height: normal;
+    text-indent: 2em;
+    word-spacing: normal;
+}
+a:link {
+  color:lightblue;
+}
+.contentclass{
+  width: 99%;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+.flex {
+  width: 66%;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  color: #fff;
+  background-color:rgb(255,170,0,0.5);
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  left: 0%;
+  z-index: 9999;
+}
+article {
+  background-color: rgb(245, 245, 220, 0.5);
+  width: 100%;
+  border: 2px solid blue;
+  margin: 0%;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.section {
+  padding: 1%;
+  display: inline-flex;
+  margin: auto;
+  position: relative;
+  width: 50%;
+  float: left;
+}.center {
+  text-align: center;
+}
+
+.p {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+  width: 99%;
+  padding: 10px;
+}
+
+.margin{
+  margin-bottom: 8%;
+}
+
+.name{
+  float: left;
+  margin-left: 2%;
+}
+.cookie{
+  float: right;
+  margin-right: 2%;
+}
+@media only screen and (min-width:1180px){
+  .image{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .floatright{
+    text-align: center;
+  }
+  }
+@media only screen and (max-width:480px) {
+  .image{
+  width: 133.33px;
+  height: 100px;
+  display: block;
+  float: left;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  }
+  .floatright{
+  text-align: center;
+  }  
+  article{
+    width: 98%;
+  }
+  h1,h2{
+    width: 49%;
+    color: #fff;
+  }
+  header{
+float: left;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:1179px){
+  article{
+    width:99%;
+  }
+  .image{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .floatright{
+    text-align: left;
+    float: right;
+  }
+  .flex {
+    width: 99%;
+    position: initial;
+  }
+  .contentclass {
+    position: relative;
+  }
+
+}
+@media only screen and (max-width:1179px) {
+  .section {
+    width: 98%;
+    margin-right: 2%;
+  }
+}
+
+
